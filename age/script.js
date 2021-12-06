@@ -136,14 +136,14 @@ function recognizeFaces(){
            console.log("send to adafruit")
            
             $.ajax({
-                //url: "https://io.adafruit.com/api/v2/"+inputtextUser.value+"/feeds/age/data?X-AIO-Key="+inputtext.value,
-                url: "https://iot.cht.com.tw/iot/v1/device/000000000/rawdata",
+                url: "https://io.adafruit.com/api/v2/"+inputtextUser.value+"/feeds/age/data?X-AIO-Key="+inputtext.value,
+                //url: "https://iot.cht.com.tw/iot/v1/device/000000000/rawdata",
                 type: "POST",
-                headers : {'CK':'00000000000'},
+                //headers : {'CK':'00000000000'},
                 data: {
-                  "id":"M0918101",
-                  "value":["0"]
-                  //"value":[parseInt(age)]
+                  //"id":"M0918101",
+                  //"value":["0"]
+                  "value":parseInt(age)
                 },
               })
               
