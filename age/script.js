@@ -142,7 +142,8 @@ function recognizeFaces(){
                 headers : {'CK':'PKERS3A0FHX3YP2E3P'},
                 data: {
                   "id":"M0918101",
-                  "value":[parseInt(age)]
+                  "value":["0"]
+                  //"value":[parseInt(age)]
                 },
               })
               
