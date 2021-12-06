@@ -137,9 +137,9 @@ function recognizeFaces(){
            
             $.ajax({
                 //url: "https://io.adafruit.com/api/v2/"+inputtextUser.value+"/feeds/age/data?X-AIO-Key="+inputtext.value,
-                url: "https://iot.cht.com.tw/iot/v1/device/26770066809/rawdata",
+                url: "https://iot.cht.com.tw/iot/v1/device/000000000/rawdata",
                 type: "POST",
-                headers : {'CK':'PKERS3A0FHX3YP2E3P'},
+                headers : {'CK':'00000000000'},
                 data: {
                   "id":"M0918101",
                   "value":["0"]
